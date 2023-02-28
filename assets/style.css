@@ -1,0 +1,136 @@
+
+
+
+/* Start - WEBSITE COLORS - OK */
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+/* End - WEBSITE COLORS - OK */
+
+
+/* Start - GLOBAL WEBSITE WRITING PARAMETERS - OK */
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+/* End - GLOBAL WEBSITE WRITING PARAMETERS - OK */
+
+/* Start - GENERAL PARAMETERS : SECTIONS, TOP - OK */
+    /* Start - GENERAL PARAMETERS - OK */
+
+
+    html{
+        font-size: 100%;
+        overflow-x: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+    }
+    /* End - GENERAL PARAMETERS - OK */
+    
+    
+    
+    html::-webkit-scrollbar{
+        width: 0.8rem;
+    }
+    
+    html::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    
+    html::-webkit-scrollbar-thumb{
+        background: #fff;
+        border-radius: 1rem;
+    }
+    
+
+body{
+    background: var(--bg);
+}
+
+    /* Start - PARAMETRES SECTIONS - OK */
+    section{
+        padding:1rem 7%;
+    }
+        /* End - PARAMETRES SECTIONS - OK */
+
+/* Start - Paragraph */
+p{
+    color: #d3ad7f;
+    font-size: 16px;
+}
+/* End - Paragraph */
+
+
+
+/* FOOTER PARAMETERS - OK */
+
+        /* 1) Start - Footer - */
+        .footer{
+            background:var(--bg);
+            text-align: center;
+        }
+        /* End - Footer - */
+
+
+        /* 2) Start - Footer 'share' - */
+        .footer .share{
+            padding:1rem 0;
+        }
+
+        .footer .share a{
+            height: 4rem;
+            width: 4rem;
+            line-height: 4rem;
+            font-size: 2rem;
+            color:#fff;
+            border:var(--border);
+            margin:.3rem;
+            border-radius: 40%;
+        }
+
+        .footer .share a:hover{
+            background-color: var(--main-color);
+        }
+        /* End - Footer 'share' - */        
+       
+        /* 3) Start - Footer 'links' - */
+        .footer .links{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding:2rem 0;
+            gap:1rem;
+        }
+                
+        .footer .links a{
+            padding:.7rem 2rem;
+            color:#fff;
+            border:var(--border);
+            font-size: 2rem;
+        }
+        
+        .footer .links a:hover{
+            background:var(--main-color);
+        }
+        /* End - Footer 'links' - */
+
+        /* 4) Start - Footer 'credits' - */
+        .footer .credit{
+            font-size: 1rem;
+            color:#fff;
+            font-weight: lighter;
+            padding:1.5rem;
+        }
+        
+        .footer .credit span{
+            color:var(--main-color);
+        }
+        /* End - Footer 'credits' - */

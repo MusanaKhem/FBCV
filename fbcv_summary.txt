@@ -1,0 +1,47 @@
+<-1-> Create 'FCBV' mysql database with all basics tables needed
+State --> create with mySQL
+
+<-2-> Create inscription and connection systems
+State --> system still exists --> have already and correctly been integrated and adjusted to this project --> NEED TO BE TEST BY PRO
+
+<-3-> Create publish question system
+State --> system still exists --> but need to be adjusted for this project
+
+<-4-> Create users' questions display
+State --> system still exists --> but need to be adjusted for this project
+
+<-5-> Create modify question system
+State --> system still exists --> but need to be adjusted for this project
+
+<-6-> Create delete question system
+State --> system still exists --> but need to be adjusted for this project
+
+<-7-> Create search and display questions system
+State --> system still exists --> but need to be adjusted for this project
+
+<-8-> Create answering question system
+State --> system still exists --> but need to be adjusted for this project
+
+<-9-> Create a system to display user profile (with all its publications)
+State --> system still exists --> but need to be adjusted for this project
+
+<-10-> Create a private messaging
+State --> system still exists --> but need to be adjusted for this project
+
+<-11-> Create a system to allow user to create his online resumes 
+State --> 
+
+<-12-> Create 
+State --> 
+
+<-13-> ...
+State --> 
+
+<-14-> ...
+State --> 
+
+<-15-> ...
+State --> 
+
+<-16-> ...
+State --> 
