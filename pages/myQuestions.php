@@ -26,12 +26,12 @@
                     <!-- Bootstrap lass's card -->
                     <div class="card">
                         <!-- Card title - php dynamics display -->
-                        <h6 class="card-header">
+                        <h5 class="card-header">
                         The <?= $question['publish_datetime']; ?> ; you posted the untitled question : 
                         <a href="question.php?id=<?= $question['id']; ?>">
                             <?= $question['title']; ?>
                         </a>
-                        </h6>
+                        </h5>
                         
                         <!-- Card body -->
                         <div class="card-body">

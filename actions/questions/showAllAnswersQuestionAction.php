@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 // Call out database
 require('actions/database.php');
 
@@ -9,4 +7,3 @@ $getAllAnswersOfThisQuestion = $bdd->prepare('SELECT id_author, pseudo, id_quest
 
 // Get all the selected question's answers - Answers are selected using the question id
 $getAllAnswersOfThisQuestion->execute(array($idOfTheQuestion));
-

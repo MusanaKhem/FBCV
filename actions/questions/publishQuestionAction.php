@@ -1,5 +1,4 @@
-<?php 
-session_start();
+<?php
 
 // Call out database
 require('../actions/database.php');

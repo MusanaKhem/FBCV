@@ -26,17 +26,17 @@
         ?>
         <!--  -->
         <div class="mb-3">
-            <label for="exampleInputQuestionObject" class="form-label">Title or object</label>
+            <label for="exampleInputQuestionObject" class="form-label"><p>Title or object</p></label>
             <input type="text" class="form-control" name="title">
         </div>
         <!--  -->
         <div class="mb-3">
-            <label for="exampleInputQuestionDescription" class="form-label">Description</label>
+            <label for="exampleInputQuestionDescription" class="form-label"><p>Description</p></label>
             <textarea type="text" class="form-control" name="explanation"></textarea>
         </div>
         <!--  -->
         <div class="mb-3">
-            <label for="exampleInputQuestionContent" class="form-label">Content</label>
+            <label for="exampleInputQuestionContent" class="form-label"><p>Content</p></label>
             <textarea type="text" class="form-control" name="content"></textarea>
         </div>  
     <!-- Button to confirm entered entries and register them in the database -->

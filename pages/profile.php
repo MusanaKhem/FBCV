@@ -34,7 +34,7 @@
 
             <div class="card">
                 <div class="card-body">
-                    <p>Hi, <?= $user_lastname.' '.$user_firstname; ?>, here you can find all profile information</p>
+                    <b>Hi, <?= $user_lastname.' '.$user_firstname; ?>, here you can find all profile information</b>
                 </div>
             </div>
 

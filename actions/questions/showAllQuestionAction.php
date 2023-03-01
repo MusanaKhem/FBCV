@@ -1,6 +1,5 @@
 <?php
 // Call out database
-session_start();
 
 require('actions/database.php');
 

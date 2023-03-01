@@ -29,13 +29,13 @@
 
                     <!-- allow identified user to modify question title -->
                     <div class="mb-3">
-                        <label for="exampleModifyQuestionTitle" class="form-label">Title or object</label>
+                        <label for="exampleModifyQuestionTitle" class="form-label"><p>Title or object</p></label>
                         <input type="text" class="form-control" name="title" value="<?= $question_title; ?>">
                     </div>
 
                     <!-- Allow identified user to modify question description -->
                     <div class="mb-3">
-                        <label for="exampleModifyQuestionDescription" class="form-label">Description</label>
+                        <label for="exampleModifyQuestionDescription" class="form-label"><p>Description</p></label>
                         <textarea type="text" class="form-control" name="explanation">
                             <?= $question_explanation; ?>
                         </textarea>
@@ -43,7 +43,7 @@
 
                     <!-- Allow identified user to modify question content -->
                     <div class="mb-3">
-                        <label for="exampleModifyQuestionContent" class="form-label">Content</label>
+                        <label for="exampleModifyQuestionContent" class="form-label"><p>Content</p></label>
                         <textarea type="text" class="form-control" name="content">
                             <?= $question_content; ?>
                         </textarea>

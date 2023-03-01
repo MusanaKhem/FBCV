@@ -55,7 +55,7 @@
         ?>
     </section>
 
-    <p>Bonjour à tous </p>
+    <p>Bonjour à tous</p>
 
     </div>
 </body>

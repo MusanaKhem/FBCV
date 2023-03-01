@@ -30,7 +30,7 @@
 		<?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>
 
 		<div class="mb-3">
-			<label for="exampleInputLastname" class="form-label"><p>Lastname<p></label>
+			<label for="exampleInputLastname" class="form-label"><p>Lastname</p></label>
 			<input type="text" class="form-control" name="lastname">
 		</div>
 
